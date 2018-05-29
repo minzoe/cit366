@@ -1,9 +1,15 @@
-.title {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-left: 1rem;
+.center-panel {
+  margin-left: auto;
+  margin-right: auto;
+  width: 38rem;
 }
 
-.pad-right {
-  margin-right: 1rem;
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.pad-left-right{
+  padding-left:1rem;
+  padding-right:1rem;
 }
