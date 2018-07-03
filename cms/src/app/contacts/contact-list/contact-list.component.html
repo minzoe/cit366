@@ -11,6 +11,7 @@
         <app-contact-item
           *ngFor="let contactEl of contacts"
           [contact]="contactEl"
+          dnd-draggable [dragEnabled]="true" [dragData]="contactEl" [dropZones]="['contactGroup']"
         ></app-contact-item>
       </div>
     </div>
