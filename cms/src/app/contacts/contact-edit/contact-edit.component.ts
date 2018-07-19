@@ -58,11 +58,11 @@ export class ContactEditComponent implements OnInit {
     } else {
       this.contactService.addContact(newContact);
     }
-    this.router.navigate(['../../'], {relativeTo: this.route});
+    this.router.navigate(['/contacts'], {relativeTo: this.route});
   }
 
   onCancel() {
-    this.router.navigate(['../../'], {relativeTo: this.route});
+    this.router.navigate(['/contacts'], {relativeTo: this.route});
   }
 
   isInvalidContact(newContact: Contact) {
